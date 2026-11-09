@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440" role="img" aria-label="FAKE FISH insignia (original parody artwork, not a government emblem)">
+<title>FAKE FISH insignia (satire)</title>
+<defs>
+ <linearGradient id="gd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7e3a1"/><stop offset=".55" stop-color="#d9b44a"/><stop offset="1" stop-color="#9c7a22"/></linearGradient>
+ <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b5fa8"/><stop offset="1" stop-color="#01325c"/></linearGradient>
+ <linearGradient id="fish" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5a6e"/><stop offset=".5" stop-color="#d4143a"/><stop offset="1" stop-color="#7b1fa2"/></linearGradient>
+ <radialGradient id="bub" cx=".35" cy=".3" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#cfeaff"/><stop offset="1" stop-color="#6fb3e6"/></radialGradient>
+ <path id="ribbon2Path" d="M100 392 Q200 418 300 392"/>
+ <path id="ribbonPath" d="M44 331 Q200 373 356 331"/>
+<g id="sea0">
+ <path d="M96 148 C76 140 70 160 84 168 C70 176 66 196 78 214 C88 230 82 250 70 262 C60 272 66 292 84 290 C100 288 98 270 88 268 C98 262 104 244 102 226 C100 206 116 196 122 178 C128 160 116 146 104 146 C102 140 106 132 100 128 C94 132 98 142 96 148 Z" fill="url(#gd)" stroke="#6b5214" stroke-width="2.5" stroke-linejoin="round"/>
+ <path d="M96 148 C88 146 80 148 76 152 C72 150 66 152 62 150 C64 156 70 158 76 158" fill="url(#gd)" stroke="#6b5214" stroke-width="2.5" stroke-linejoin="round"/>
+ <circle cx="100" cy="156" r="3.2" fill="#01325c"/>
+ <path d="M108 172 C116 178 116 190 108 198 M104 206 C112 212 112 222 104 228 M98 236 C104 240 104 248 98 252" fill="none" stroke="#6b5214" stroke-width="2"/>
+ <path d="M114 186 C128 180 136 190 128 200 C122 206 116 200 118 194" fill="#f7e3a1" stroke="#6b5214" stroke-width="2"/>
+</g>
+</defs>
+<!-- bubble-nest crest (crown of bubbles) -->
+<g stroke="#9c7a22" stroke-width="1.5">
+ <path d="M140 92 Q200 60 260 92 L250 108 Q200 90 150 108 Z" fill="url(#gd)"/>
+ <circle cx="152" cy="80" r="11" fill="url(#bub)"/><circle cx="175" cy="66" r="13" fill="url(#bub)"/>
+ <circle cx="200" cy="58" r="15" fill="url(#bub)"/><circle cx="225" cy="66" r="13" fill="url(#bub)"/>
+ <circle cx="248" cy="80" r="11" fill="url(#bub)"/><circle cx="188" cy="40" r="7" fill="url(#bub)"/>
+ <circle cx="212" cy="36" r="6" fill="url(#bub)"/><circle cx="200" cy="22" r="5" fill="url(#bub)"/>
+</g>
+<!-- seahorse supporters (left drawn, right mirrored) -->
+
+<use href="#sea0"/>
+<use href="#sea0" transform="translate(400 0) scale(-1 1)"/>
+<!-- shield -->
+<path d="M128 112 H272 V200 C272 252 238 280 200 296 C162 280 128 252 128 200 Z" fill="url(#sh)" stroke="url(#gd)" stroke-width="7" stroke-linejoin="round"/>
+<path d="M140 124 H260 V200 C260 244 232 268 200 282 C168 268 140 244 140 200 Z" fill="none" stroke="#f7e3a1" stroke-width="1.5" stroke-dasharray="4 4"/>
+<!-- waves on shield base -->
+<path d="M146 246 q9 -8 18 0 t18 0 t18 0 t18 0 t18 0 t18 0" fill="none" stroke="#8fd0ff" stroke-width="2.5"/>
+<path d="M156 262 q9 -8 18 0 t18 0 t18 0 t18 0 t18 0" fill="none" stroke="#8fd0ff" stroke-width="2.5"/>
+<!-- fighting fish (betta) -->
+<g transform="translate(200 188)">
+ <path d="M18 -4 C40 -46 72 -40 70 -6 C84 4 84 30 64 40 C52 18 36 12 18 8 Z" fill="url(#fish)" stroke="#5b0a1e" stroke-width="1.6" opacity=".95"/>
+ <path d="M-6 -14 C4 -50 34 -54 30 -14 Z" fill="url(#fish)" stroke="#5b0a1e" stroke-width="1.6"/>
+ <path d="M-4 12 C6 44 36 50 34 12 Z" fill="url(#fish)" stroke="#5b0a1e" stroke-width="1.6"/>
+ <path d="M-46 0 C-34 -22 4 -24 24 -4 C24 4 24 6 24 8 C4 26 -34 22 -46 0 Z" fill="#e01e44" stroke="#5b0a1e" stroke-width="2"/>
+ <path d="M-14 -12 C-6 -2 -6 6 -14 14" fill="none" stroke="#5b0a1e" stroke-width="1.6"/>
+ <circle cx="-32" cy="-4" r="5" fill="#fff"/><circle cx="-33" cy="-4" r="2.6" fill="#111"/>
+ <path d="M-46 3 q5 3 10 1" stroke="#5b0a1e" fill="none" stroke-width="1.8"/>
+ <path d="M-10 10 C-14 26 -24 32 -30 30 C-24 24 -20 18 -18 10 Z" fill="#ff7a8a" stroke="#5b0a1e" stroke-width="1.2"/>
+ <circle cx="-56" cy="-16" r="4" fill="url(#bub)" stroke="#9c7a22"/><circle cx="-64" cy="-30" r="6" fill="url(#bub)" stroke="#9c7a22"/>
+</g>
+
+<!-- ribbon -->
+<path d="M30 316 L58 312 L58 352 L30 356 L42 334 Z" fill="#b8902c" stroke="#6b5214" stroke-width="2"/>
+<path d="M370 316 L342 312 L342 352 L370 356 L358 334 Z" fill="#b8902c" stroke="#6b5214" stroke-width="2"/>
+<path d="M52 306 Q200 350 348 306 L348 346 Q200 390 52 346 Z" fill="url(#gd)" stroke="#6b5214" stroke-width="2.5"/>
+<!-- NOTE: "AQAUTIC" is a deliberate misspelling (satire marker). Do not "fix" it. -->
+<text font-family="Georgia,'Times New Roman',serif" font-size="12.5" font-weight="bold" fill="#01325c" letter-spacing=".2" text-anchor="middle"><textPath href="#ribbonPath" startOffset="50%">FEDERAL AQAUTIC KNOWLEDGE EXCHANGE</textPath></text>
+<path d="M92 376 Q200 404 308 376 L308 404 Q200 432 92 404 Z" fill="#01325c" stroke="url(#gd)" stroke-width="2.5"/>
+<text font-family="Georgia,'Times New Roman',serif" font-size="11" font-weight="bold" fill="#f7e3a1" letter-spacing=".8" text-anchor="middle"><textPath href="#ribbon2Path" startOffset="50%">FIGHTING-FISH STANDARDS</textPath></text>
+</svg>
